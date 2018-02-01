@@ -116,7 +116,7 @@ Teams of developers usually adhere to an agreed-upon set of code-style rules. Th
 
 ### Deadlines
 
-Your **project planning work** must be approved by an instructor by **Friday, February 9, at 11:00am**. This will ensure you're able to set up the basics of your app before you leave for the weekend.
+Your **project planning work** must be approved by an instructor by **Friday, February 2, at 11:00am**. This will ensure you're able to set up the basics of your app before you leave for the weekend.
 
 You will present this project on **Thursday, February 8, at 3:00 pm**. (Other classes will be invited to see your presentations!) For your presentation, please follow these guidelines:
 
