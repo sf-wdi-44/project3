@@ -1,10 +1,10 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #3: Building a Full Stack MERN Application
 
-### Overview
+## Overview
 
-While your last project taught you how to get started with writing a fullstack application in JavaScript using Express, Mongoose, and Node, this project will have you building another full stack application, but this time with a React front-end.
+While your Project 1 taught you how to write a fullstack application in JavaScript using Express, Mongoose, and Node, this project will have you building another full stack application, but this time with a React front-end.
 
-Your instructors have grouped you with other classmates to design and build an app with two major components:
+Your team will build an app with two major components:
 
 1. An API of your own design, built using Node, Express, and Mongoose, that serves JSON.
 2. Front-end React code that updates the UI and makes requests to the API.
@@ -13,40 +13,80 @@ Your instructors have grouped you with other classmates to design and build an a
 
 ---
 
+## Planning & Deliverables
+
+###### What will we be turning in?
+
+### Project Planning Deliverables
+
+**You must review the following with your instructional team BEFORE you start to code.**
+
+* **Scope/MVP:** What are you planning to build? What do you reasonably think you can implement in the time period?
+* **User Stories:** Who is your user? What features will your app have? Set up your project and user stories in <a href="https://trello.com" target="_blank">Trello</a> or in some other organized format.
+* **Wireframes:** Sketch out what your core pages will look like and how they will work. Consider making a *paper prototype* to demonstrate and/or test key user interactions.
+* **Data Models (ERD):** Draw out the models and any associations for your project in an entity relationship diagram (ERD).
+* **Milestones:** Outline the milestones/sprints for your group. Identify where in those sprints you've met your MVP.
+
+### Completed Project Deliverables
+
+* Link to Heroku hosted front-end and back-end, with all core technical requirements completed.
+* Link to two source code repos on GitHub.
+* A `README.md` file on ONE of your repos with the following:
+  * Description: Short paragraph (2-3 sentences) "elevator pitch" describing what your project does
+  * Wireframes and user stories
+  * Links to Heroku hosted project
+  * Link to frontend/backend GitHub repo (each should link to the other)
+  * Technologies (languages, external libraries, APIs)
+  * Wish List / Future Development
+  * Contributors (with links to their GitHub profiles)
+
+---
+
 ### Requirements
 
 > ### *Do not use Redux for this project*
 
 #### Back-End Requirements
-  - This app must contain a Node, Express, and Mongoose backend API with at least 2 models. No associations are required. User authentication is **strongly discouraged since it is often a major stumbling block**.
-  - Must have Create, Read, Update, and Destroy functionality.
+This app must contain a Node, Express, and Mongoose backend API with at least 2 models. No associations are required, but they're certainly encouraged. User authentication is **optional, and makes sense as a stretch goal**.
+
+##### Specifics:
+  * **Express:** Use Express for your server.
+  * **MongoDB and Mongoose:** Use MongoDB for your database in development and production.
+  * **Data Models** Include at least two data models, with associations if appropriate.
+  * **Data Validation:** Your application should validate incoming data before entering it into the database.
+  * **Heroku:** Deploy your app to Heroku. Ensure no app secrets are exposed. *Do not commit secret keys to GitHub!*
 
 #### Front-End Requirements
   - This app must use a React front end that leverages the backend API in the above requirement.
   - Must use React Router to handle multiple views.
   - Must communicate with the back-end API RESTfully to Create, Read, Update, and Destroy resources, using fetch or axios.
 
-#### Deployment
-  - Your API must be deployed to Heroku and your front-end must be deployed to GitHub pages or Surge.
+##### Specifics:
+  * **React:** Use React to create an elegant frontend for your application.
+  * **Modular Components:** Your frontend code should be organized into logical components, using containers and models appropriately to store and fetch data.
+  * **API Interaction:** Your frontend should provide a way of performing full CRUD on the API.
+  * **Error Handling:** Forms in your application should validate data, handle incorrect inputs, and provide user feedback on the client side.
+  * **Responsive Design:** Make sure your app looks great on a phone or tablet.
+  * **Heroku:** Deploy your app to Heroku. Ensure no app secrets are exposed. *Do not commit secret keys to GitHub!*
 
-    > We strongly recommend deploying your back-end and front-end separately. This will make it far easier to debug your deployed applications and manage your deployments.
+#### Deployment
+  - Your API must be deployed to one Heroku instance, and your frontend must be deployed to another Heroku instance.
+
+    > We strongly recommend deploying your back-end and front-end separately. This will make it far easier to debug your deployed applications and manage your deployments. If you feel strongly about deploying your code in a different way, you need to convince Michelle this is a good idea.
 
 ---
 
 ### App Organization
 
-You should split your application into separate repositories, one for your React front-end and another for your Node-Express-Mongoose API.
-
-[See deploying to Heroku with MLAB cloud-hosted MongoDB here](https://git.generalassemb.ly/ga-wdi-lessons/express-mongoose-mlab-deploy).
+You should split your application into **two** repositories, one for your React front-end and another for your Node-Express-Mongoose API.
 
 ---
 
 ### Contribution Guidelines
 
-  - Each member of your group ***must have an individual commit history*** to your project's repositories (Multiple commits per group member).
   - Each project should include a `readme.md` that defines the roles of each group member. Specifically, it should include the responsibilities of each member and their contributions.
   - Each member of your group is expected to present for an equal amount of time during [project presentations](presentations.md), which last at least 10 minutes per group.
-  - During 10-minute daily scrums with an assigned instructor, teams members must share progress. Scrum discussion topics may include goal-setting, time management, goal progress, and individual group contributions. This is **not** time to address technical issues. The instructor will check in with groups every day of project week.
+  - During 10-minute daily standups, teams members must share progress with each other. Standup discussion topics may include goal-setting, time management, goal progress, and individual group contributions. This is **not** time to address technical issues. The instructors will check in with groups every day of project week.
 
 ---
 
@@ -54,7 +94,7 @@ You should split your application into separate repositories, one for your React
 
 * **Keep user stories small** and well-defined. Remember: user stories focus on what a user *needs*, not what development tasks need accomplishing.
 * **Write pseudocode** before you write actual code. Thinking through the logic first helps.
-* **Don't hesitate** to write throwaway code to solve short-term problems.
+* **Don't hesitate** to write throwaway code to solve short-term problems, then refactor to a better solution if you have time.
 * **Read the docs** for whatever technologies / frameworks / API's you plan to use. (See ["RTFM"](https://en.wikipedia.org/wiki/RTFM))
 * **Continuously Deploy** your code.
 
@@ -73,48 +113,25 @@ Teams of developers usually adhere to an agreed-upon set of code-style rules. Th
 
 ---
 
-### Project Ideas
 
-For this project, work with your team to build a creative product that you actually think someone will want to use.
+### Deadlines
 
-If you're struggling to come up with your own project ideas, checkout [r/startup_ideas](https://www.reddit.com/r/Startup_Ideas/) on reddit or [requestforstartup.co](https://requestforstartup.co/).
+Your **project planning work** must be approved by an instructor by **Friday, February 9, at 11:00am**. This will ensure you're able to set up the basics of your app before you leave for the weekend.
 
-<!-- All students are required to submit **two Project 3 ideas** as an issue [here](https://github.com/ga-wdi-exercises/project3/issues). The deadline for submission is August 18th at 9:00AM. -->
+You will present this project on **Thursday, February 8, at 3:00 pm**. (Other classes will be invited to see your presentations!) For your presentation, please follow these guidelines:
 
-Once your team selects an idea, the group **must** choose a workflow from the [Git Teams & Workflow lesson](https://git.generalassemb.ly/ga-wdi-lessons/git-teams). Be prepared to share your team's plans with your assigned instructor at the first round of scrum.
+* Your presentation should include the **motivation** for building this project and a **demo** of the core functionality.
+* **Maximum 20 minutes.**
+* **Minimum 5 slides.** Slides should include:
+  * Wireframes
+  * User stories
+  * ERDs
+  * Walk through the development of one feature from ideation to execution. At minimum, this should include wireframes, code samples, and the final result.
+* **ALL group members must speak during the presentation.** Each group member should answer the following:
+  * What parts of the project did you work on?
+  * What was the most challenging aspect? Was there anything that was surprisingly easy to implement?
+  * What did you learn?
 
-#### Project Idea Submission Deadline
-
-Project ideas will be due January 29th, at 12 pm.
-
-Planning submissions must include:
-  1. ERDs for models
-  2. Rough wireframes for your views and user interface
-  3. MVP Roadmap, which would include...
-    - When you will have your models done by
-    - Your schedule of creating components, adding features`
-
----
-
-### Evaluation and Submission
-
-[See the requirements for the contents of the submission here.](evaluation.md)
-
-#### [Submit Your Project Here](https://github.com/ga-dc/project3-gallery/issues)
-
-### Attendance
-
-Attendance will be taken every day at 9:00AM. Remember to check in! You are required to work on campus all day, every day of project week.
-
----
-
-### Support
-
-Each group will be given four tokens, redeemable at any time for 15 minutes each. You can use one token per instructor. Tokens cannot be transferred between groups.
-
-<!-- ### Useful Resources -->
-
-<!-- * **[Deploying Heroku Apps with Custom Names](https://devcenter.heroku.com/articles/renaming-apps)** -->
 
 ---
 
@@ -128,7 +145,11 @@ Consider whether or not you want to introduce a barrier to entry for your applic
 
   > "Do I *really* need to log in just so I can post a link to a GIF?"
 
-[Here](https://git.generalassemb.ly/ga-wdi-lessons/express-passport) is a GA lesson explaining how auth can be implemented in an Express application.
+Use Passport for your authentication. The Passport lab is a good guide to setting up that functionality.
+
+#### Image Uploading
+
+Uploading images is **hard**. This is a great stretch goal for your application and should **not** be part of your core functionality/MVP.
 
 #### Maps
 
