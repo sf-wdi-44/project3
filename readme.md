@@ -85,7 +85,7 @@ You should split your application into **two** repositories, one for your React 
 ### Contribution Guidelines
 
   - Each project should include a `readme.md` that defines the roles of each group member. Specifically, it should include the responsibilities of each member and their contributions.
-  - Each member of your group is expected to present for an equal amount of time during [project presentations](presentations.md), which last at least 10 minutes per group.
+  - Each member of your group is expected to present for an equal amount of time during project presentations, which last at least 10 minutes per group.
   - During 10-minute daily standups, teams members must share progress with each other. Standup discussion topics may include goal-setting, time management, goal progress, and individual group contributions. This is **not** time to address technical issues. The instructors will check in with groups every day of project week.
 
 ---
@@ -116,9 +116,9 @@ Teams of developers usually adhere to an agreed-upon set of code-style rules. Th
 
 ### Deadlines
 
-Your **project planning work** must be approved by an instructor by **Friday, February 2, at 11:00am**. This will ensure you're able to set up the basics of your app before you leave for the weekend.
+Your **project planning work** must be approved by an instructor by **Friday, May 11th, at 11:00am**. This will ensure you're able to set up the basics of your app before you leave for the weekend.
 
-You will present this project on **Thursday, February 8, at 3:00 pm**. (Other classes will be invited to see your presentations!) For your presentation, please follow these guidelines:
+You will present this project on **Thursday, May 17th, at 3:00 pm**. (Other classes will be invited to see your presentations!) For your presentation, please follow these guidelines:
 
 * Your presentation should include the **motivation** for building this project and a **demo** of the core functionality.
 * **Maximum 20 minutes.**
